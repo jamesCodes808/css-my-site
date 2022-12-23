@@ -4,7 +4,7 @@
 
 <details closed><summary>Projects</summary>
 
-<a href='https://jameslearnscode.github.io/web-development-projects/CSS%20-%20My%20Site/'>Profile Site</a>
+<a href='https://jameslearnscode.github.io/web-development-projects/CSS-My-Site/'>Profile Site</a>
 <br>
 <a href='#'>#</a>
 <br>
