@@ -1,5 +1,6 @@
 body {
     background-color: #FFF;
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -22,11 +23,12 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
-    font-weight: bold
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 p {
-    color: #40514E;
+    line-height: 2;
 }
 
 h3,
@@ -35,13 +37,17 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #EAF6F6;
+}
 
 
 hr {
-    border-style: dotted none none none;
-    border-color: #D2D2D2;
-    width: 100px;
-    border-width: .7rem;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    /* border-color: #D2D2D2; */
+    width: 4%;
+    margin: 100px auto;
 }
 
 .top-container {
@@ -50,10 +56,17 @@ hr {
     padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+    margin: 100px 0;
+}
 
 .profile {
     margin-bottom: 6.25rem;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
 }
 
 .skills {
@@ -64,6 +77,7 @@ hr {
     background-color: #65BFBF;
     margin: 0;
     height: 9.375rem;
+    padding: 50px 0 20px;
 }
 
 .contact-me {
@@ -72,13 +86,15 @@ hr {
 
 .footer-copyright {
     color: #EAF6F6;
-    margin-bottom: 0;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .footer-link {
     margin: 2rem 2rem;
     color: #11999E;
     display: inline-block;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -96,7 +112,8 @@ hr {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat',
+        sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -115,7 +132,7 @@ hr {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
@@ -141,6 +158,10 @@ hr {
     margin-left: 1.875rem;
 }
 
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
 
 .credit-link {
     font-size: xx-small;
@@ -150,7 +171,6 @@ hr {
     margin: 6.25rem auto;
     width: 50%;
     text-align: left;
-    line-height: 2;
 }
 
 #profile-img {
