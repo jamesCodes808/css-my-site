@@ -19,6 +19,17 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: "Monstserrat-Bold", sans-serif;
+    font-weight: 800 !important;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -51,4 +62,59 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Feature Section  */
+
+#features {
+    padding: 7% 15%;
+    
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-text {
+    color: #8f8f8f;
+}
+
+
+
+/* Testimonial Section  */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #FFF;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section  */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px; 
 }
